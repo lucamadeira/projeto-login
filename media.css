@@ -15,7 +15,7 @@ section#login{
     translate: -50% -50%;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 10px;
     overflow: hidden;
     box-sizing: border-box;
@@ -23,6 +23,7 @@ section#login{
    
 
 }
+
 section > div#image{
    background: black url(image/pexels-matthardy-4739606.jpg);
     height: 200px;
@@ -31,4 +32,41 @@ section > div#image{
 section#login > div#formulario{
      display: block;
     padding: 10px;
+}
+.tamanho{
+    width: 115px;
+}
+a.style{
+    display: block;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+     font-size: 1em;
+    margin: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width:80% ;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+a.style:hover{
+    background-color: #18c79e;
+    color: white;
+}
+#account{
+    display: block;}
+
+#lock{
+    display: block;
+}
+#form {
+    display: block;
+    font-size: 1em;
+    margin: 10px;
+    width:80% ;
+    height: 40px;
+    background-color: #18c79e;
+    cursor: pointer;
 }

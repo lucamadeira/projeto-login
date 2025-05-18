@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ligin pag</title>
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="mediaQuyris.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
 </head>
 <body>
     <main>
@@ -13,10 +16,27 @@
                     
                 </div>
                 <div id="formulario">
-                    <form action="login.php" method="post"></form>
-                    <h1> login</h1>
-                    <p> criando o meu primeiro login con media </p>
+                    <form action="login.php" method="post">
+                        <h1>login</h1>
+                        <p>criando o meu primeiro login com media</p>
+                        
+                        <div >
+                            <span id="account" class="material-icons">person outline</span>
+                            <input type="email" name="email" id="email" placeholder="email" required>
+                            <label for="iemail">email:</label>
+                        </div>
+                        <div>
+                            <span id="look" class="material-icons">lock</span>
+                            <input type="password" name="password" id="ipassword" 
+                            class="tamanho"  placeholder="password" required >
+                            <label for="ipassword">password:</label>
+                        </div>
+                        <div >
+                            <input type="submit" value="envio" id="form">
+                            <a  class="style" href="#">esqueci a senha</a>
+                        </div>
 
+                    </form>
                 </div>
        </section>
     </main>
